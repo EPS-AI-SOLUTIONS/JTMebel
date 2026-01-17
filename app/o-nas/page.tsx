@@ -5,33 +5,33 @@ import { CtaSection } from "@/components/cta-section"
 import { CheckCircle, Users, Award, Building2, TrendingUp } from "lucide-react"
 
 const stats = [
-  { value: "20+", label: "Lat doświadczenia", icon: Award },
-  { value: "5000+", label: "Zrealizowanych projektów", icon: CheckCircle },
-  { value: "1000+", label: "Zadowolonych klientów", icon: Users },
-  { value: "500+", label: "Produktów w ofercie", icon: Building2 },
+  { value: "12+", label: "Lat doświadczenia", icon: Award },
+  { value: "1000+", label: "Wyposażonych sal lekcyjnych", icon: CheckCircle },
+  { value: "500+", label: "Zadowolonych klientów", icon: Users },
+  { value: "800+", label: "Produktów w ofercie", icon: Building2 },
 ]
 
 const milestones = [
-  { year: "2003", title: "Założenie firmy", description: "Rozpoczęcie działalności jako mały zakład stolarski." },
+  { year: "2012", title: "Założenie firmy", description: "Rozpoczęcie działalności JT Mebel Sp. z o.o. w Kartuzach." },
   {
-    year: "2008",
+    year: "2015",
     title: "Rozbudowa produkcji",
-    description: "Otwarcie nowego zakładu produkcyjnego i poszerzenie oferty.",
-  },
-  {
-    year: "2013",
-    title: "Certyfikacje jakości",
-    description: "Uzyskanie certyfikatów ISO i norm europejskich dla mebli edukacyjnych.",
+    description: "Inwestycja w nowoczesny park maszynowy gwarantujący wysoką jakość.",
   },
   {
     year: "2018",
-    title: "Ekspansja krajowa",
-    description: "Dostawy do szkół i przedszkoli w całej Polsce.",
+    title: "Certyfikacje jakości",
+    description: "Uzyskanie wymaganych certyfikatów zgodności z obowiązującymi normami.",
   },
   {
-    year: "2023",
-    title: "Modernizacja",
-    description: "Wdrożenie nowoczesnych technologii produkcji i automatyzacji.",
+    year: "2020",
+    title: "Ekspansja zagraniczna",
+    description: "Dostawy mebli szkolnych do placówek w kraju i za granicą.",
+  },
+  {
+    year: "2024",
+    title: "Tysiące realizacji",
+    description: "Wyposażenie tysięcy sal lekcyjnych i rozszerzenie oferty o multimedia.",
   },
 ]
 
@@ -39,22 +39,22 @@ const values = [
   {
     title: "Jakość",
     description:
-      "Każdy produkt przechodzi rygorystyczną kontrolę jakości. Używamy tylko certyfikowanych materiałów spełniających normy bezpieczeństwa.",
+      "Nasze wyroby posiadają wymagane certyfikaty zgodności z obowiązującymi normami. Nowoczesny park maszynowy gwarantuje najwyższą jakość.",
   },
   {
-    title: "Innowacja",
+    title: "Kompleksowość",
     description:
-      "Stale rozwijamy naszą ofertę, wprowadzając nowoczesne rozwiązania ergonomiczne i funkcjonalne dla edukacji i biznesu.",
+      "Oprócz mebli szkolnych oferujemy szafki metalowe, tablice, monitory dotykowe, fotele obrotowe oraz sprzęt sportowy i medyczny.",
   },
   {
-    title: "Partnerstwo",
+    title: "Terminowość",
     description:
-      "Budujemy długoterminowe relacje z klientami, oferując kompleksową obsługę od projektu po montaż i serwis.",
+      "Dysponujemy nowoczesnym parkiem maszynowym, który gwarantuje krótkie terminy realizacji zamówień seryjnych i indywidualnych.",
   },
   {
-    title: "Odpowiedzialność",
+    title: "Zaufanie",
     description:
-      "Dbamy o środowisko naturalne, stosując ekologiczne materiały i procesy produkcyjne przyjazne dla planety.",
+      "Celem firmy jest wytwarzanie produktów o jakości spełniającej oczekiwania klienta oraz utrwalenie opinii zaufanego producenta.",
   },
 ]
 
@@ -74,11 +74,11 @@ export default function AboutPage() {
             />
             <div className="max-w-3xl mt-8">
               <h1 className="text-4xl lg:text-5xl xl:text-6xl font-serif font-bold text-primary-foreground mb-6 text-balance">
-                Tworzymy przestrzenie do nauki i pracy
+                Producent certyfikowanych mebli szkolnych
               </h1>
               <p className="text-xl text-primary-foreground/80 leading-relaxed">
-                Od ponad 20 lat dostarczamy wysokiej jakości meble dla edukacji i biznesu. Nasza misja to tworzenie
-                ergonomicznych, bezpiecznych i estetycznych rozwiązań dla przedszkoli, szkół i biur w całej Polsce.
+                JT Mebel Sp. z o.o. z siedzibą w Kartuzach specjalizuje się w produkcji seryjnej mebli szkolnych
+                i przedszkolnych. Wyposażyliśmy tysiące sal lekcyjnych zarówno w kraju jak i za granicą.
               </p>
             </div>
           </div>
@@ -107,23 +107,22 @@ export default function AboutPage() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
               <div>
                 <h2 className="text-3xl lg:text-4xl font-serif font-bold text-foreground mb-6 text-balance">
-                  Nasza historia
+                  O firmie
                 </h2>
                 <div className="space-y-4 text-lg text-muted-foreground leading-relaxed">
                   <p>
-                    JT Mebel powstało w 2003 roku jako mały zakład stolarski specjalizujący się w produkcji mebli
-                    szkolnych. Założyciele firmy, pasjonaci rzemiosła stolarskiego, od początku stawiali na jakość i
-                    dbałość o każdy detal.
+                    JT Mebel Sp. z o.o. z siedzibą w Kartuzach specjalizuje się przede wszystkim w produkcji seryjnej
+                    mebli szkolnych, ale wykonujemy również na życzenie klienta indywidualne zamówienia.
                   </p>
                   <p>
-                    Przez lata konsekwentnego rozwoju przekształciliśmy się w jednego z wiodących producentów mebli dla
-                    sektora edukacyjnego i biznesowego w Polsce. Dziś nasza oferta obejmuje setki produktów - od
-                    kolorowych krzesełek przedszkolnych po eleganckie meble gabinetowe.
+                    W ciągu naszej działalności wyposażyliśmy w nasze meble szkolne tysiące sal lekcyjnych
+                    zarówno w kraju jak i za granicą. Dysponujemy nowoczesnym i kompleksowym parkiem maszynowym,
+                    który gwarantuje wysoką jakość i krótkie terminy realizacji.
                   </p>
                   <p>
-                    Naszym największym kapitałem są ludzie - wykwalifikowani specjaliści, którzy z pasją projektują i
-                    wytwarzają meble najwyższej jakości. To dzięki nim możemy spełniać oczekiwania nawet najbardziej
-                    wymagających klientów.
+                    Nasze wyroby posiadają wymagane certyfikaty zgodności z obowiązującymi normami.
+                    Celem firmy jest wytwarzanie produktów o jakości spełniającej oczekiwania klienta
+                    oraz utrwalenie opinii zaufanego producenta.
                   </p>
                 </div>
               </div>
@@ -223,30 +222,30 @@ export default function AboutPage() {
               </div>
               <div className="order-1 lg:order-2">
                 <h2 className="text-3xl lg:text-4xl font-serif font-bold text-foreground mb-6 text-balance">
-                  Zespół profesjonalistów
+                  Zakres usług
                 </h2>
                 <div className="space-y-4 text-lg text-muted-foreground leading-relaxed">
                   <p>
-                    Nasz zespół to ponad 50 wykwalifikowanych specjalistów - projektantów, stolarzy, logistyków i
-                    doradców handlowych. Każdy z nich wnosi do firmy unikalne umiejętności i doświadczenie.
+                    Oprócz podstawowego asortymentu mebli szkolnych i przedszkolnych, oferujemy kompleksowe
+                    wyposażenie placówek edukacyjnych i biurowych.
                   </p>
                   <p>
-                    Stawiamy na ciągły rozwój naszych pracowników, organizując szkolenia i warsztaty. Dzięki temu możemy
-                    oferować naszym klientom rozwiązania na najwyższym poziomie.
+                    W naszej ofercie znajdziesz również szafki szkolne metalowe, tablice, monitory dotykowe,
+                    fotele obrotowe, sprzęt i wyposażenie sportowe oraz medyczne.
                   </p>
                 </div>
                 <ul className="mt-6 space-y-3">
                   <li className="flex items-center gap-3">
                     <CheckCircle className="h-5 w-5 text-accent shrink-0" />
-                    <span className="text-foreground">Wykwalifikowani projektanci i stolarze</span>
+                    <span className="text-foreground">Meble szkolne i przedszkolne</span>
                   </li>
                   <li className="flex items-center gap-3">
                     <CheckCircle className="h-5 w-5 text-accent shrink-0" />
-                    <span className="text-foreground">Profesjonalni doradcy handlowi</span>
+                    <span className="text-foreground">Tablice i monitory interaktywne</span>
                   </li>
                   <li className="flex items-center gap-3">
                     <CheckCircle className="h-5 w-5 text-accent shrink-0" />
-                    <span className="text-foreground">Własny zespół montażowy</span>
+                    <span className="text-foreground">Wyposażenie sportowe i medyczne</span>
                   </li>
                 </ul>
               </div>

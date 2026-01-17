@@ -11,9 +11,16 @@ const playfair = Playfair_Display({
 })
 
 export const metadata: Metadata = {
-  title: "JT Mebel - Meble dla Edukacji i Biura",
-  description: "Producent mebli dla przedszkoli, szkół i biur. Ponad 20 lat doświadczenia. Darmowa dostawa od 5000 zł.",
-    generator: 'v0.app'
+  title: "JT Mebel - Producent Certyfikowanych Mebli Szkolnych | Kartuzy",
+  description: "JT Mebel Sp. z o.o. - producent certyfikowanych mebli szkolnych i przedszkolnych z Kartuz. Wyposażyliśmy tysiące sal lekcyjnych w kraju i za granicą. Darmowa dostawa od 5000 zł.",
+  keywords: "meble szkolne, krzesła szkolne, stoły szkolne, meble przedszkolne, monitory interaktywne, tablice szkolne, JT Mebel, Kartuzy",
+  authors: [{ name: "JT Mebel Sp. z o.o." }],
+  openGraph: {
+    title: "JT Mebel - Producent Certyfikowanych Mebli Szkolnych",
+    description: "Producent certyfikowanych mebli szkolnych i przedszkolnych z Kartuz. Tysiące wyposażonych sal lekcyjnych.",
+    locale: "pl_PL",
+    type: "website",
+  },
 }
 
 export default function RootLayout({

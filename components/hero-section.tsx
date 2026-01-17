@@ -19,14 +19,14 @@ export function HeroSection() {
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-2xl space-y-6 lg:space-y-8">
           <p className="text-primary-foreground/80 text-sm lg:text-base font-medium tracking-wide uppercase">
-            Ponad 20 lat doświadczenia
+            Producent certyfikowanych mebli szkolnych
           </p>
           <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-primary-foreground leading-tight text-balance">
-            Meble dla edukacji i biznesu
+            Meble szkolne i przedszkolne
           </h1>
           <p className="text-lg lg:text-xl text-primary-foreground/90 leading-relaxed max-w-xl">
-            Kompleksowe wyposażenie przedszkoli, szkół i biur. Najwyższa jakość, nowoczesny design i profesjonalna
-            obsługa.
+            Wyposażyliśmy tysiące sal lekcyjnych w kraju i za granicą. Nowoczesny park maszynowy gwarantuje
+            wysoką jakość i krótkie terminy realizacji.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 pt-4">
             <Button size="lg" className="bg-white text-primary hover:bg-white/90 font-semibold">

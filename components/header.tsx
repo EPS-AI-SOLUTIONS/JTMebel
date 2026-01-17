@@ -11,22 +11,59 @@ const categories = [
   {
     name: "Przedszkole",
     href: "/kategoria/przedszkole",
-    subcategories: ["Meble", "Szafki", "Stoliki", "Krzesełka", "Regały"],
+    subcategories: [
+      "Krzesła przedszkolne",
+      "Stoły przedszkolne",
+      "Kolekcja Mini",
+      "Kolekcja Bunio",
+      "Szafki z pojemnikami",
+      "Leżakowanie i odpoczynek",
+      "Higiena",
+    ],
   },
   {
     name: "Szkoła",
     href: "/kategoria/szkola",
-    subcategories: ["Ławki szkolne", "Krzesła", "Biurka nauczyciela", "Szafy", "Tablice"],
+    subcategories: [
+      "Krzesła szkolne",
+      "Stoły szkolne",
+      "Kolekcja Kubuś",
+      "Kolekcja JT",
+      "Tablice szkolne",
+      "Szafy i regały",
+    ],
   },
   {
     name: "Biuro",
     href: "/kategoria/biuro",
-    subcategories: ["Biurka", "Fotele", "Szafy biurowe", "Regały", "Recepcje"],
+    subcategories: [
+      "Fotele obrotowe",
+      "Krzesła konferencyjne",
+      "Biurka",
+      "Stoły gabinetowe",
+      "Lady recepcyjne",
+    ],
   },
   {
     name: "Multimedia",
     href: "/kategoria/multimedia",
-    subcategories: ["Projektory", "Ekrany", "Tablice interaktywne", "Uchwyty"],
+    subcategories: [
+      "Monitory interaktywne",
+      "Projektory",
+      "Ekrany projekcyjne",
+      "Wizualizery",
+      "Laptop dla nauczyciela",
+    ],
+  },
+  {
+    name: "Place zabaw",
+    href: "/kategoria/place-zabaw",
+    subcategories: [
+      "Huśtawki",
+      "Karuzele",
+      "Piaskownice",
+      "Zestawy zabawowe",
+    ],
   },
 ]
 
@@ -39,9 +76,9 @@ export function Header() {
       <div className="hidden lg:block bg-primary text-primary-foreground">
         <div className="container mx-auto px-4 py-2 flex items-center justify-between text-sm">
           <div className="flex items-center gap-6">
-            <a href="tel:+48123456789" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
+            <a href="tel:+48586847525" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
               <Phone className="h-4 w-4" />
-              +48 123 456 789
+              +48 58 684 75 25
             </a>
             <span>Pon - Pt: 8:00 - 16:00</span>
           </div>
@@ -178,9 +215,9 @@ export function Header() {
               Kontakt
             </Link>
             <div className="border-t border-border mt-2 pt-4">
-              <a href="tel:+48123456789" className="flex items-center gap-2 px-4 py-2 text-sm text-muted-foreground">
+              <a href="tel:+48586847525" className="flex items-center gap-2 px-4 py-2 text-sm text-muted-foreground">
                 <Phone className="h-4 w-4" />
-                +48 123 456 789
+                +48 58 684 75 25
               </a>
             </div>
           </nav>

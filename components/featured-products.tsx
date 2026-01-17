@@ -5,54 +5,70 @@ import { Button } from "@/components/ui/button"
 const products = [
   {
     id: 1,
-    name: "Ławka szkolna regulowana",
+    name: "Krzesło szkolne Ergos",
     category: "Szkoła",
-    price: "450 zł",
-    originalPrice: "520 zł",
-    image: "/adjustable-school-desk-with-wooden-top-and-metal-f.jpg",
+    price: "144 zł",
+    originalPrice: "160 zł",
+    image: "/school-chair-iso-standard.jpg",
     isPromo: true,
   },
   {
     id: 2,
-    name: "Krzesełko przedszkolne Kolorowe",
+    name: "Krzesło przedszkolne Kamil",
     category: "Przedszkole",
-    price: "85 zł",
+    price: "210 zł",
     image: "/colorful-children-chair-for-kindergarten--stackabl.jpg",
     isPromo: false,
   },
   {
     id: 3,
-    name: "Biurko gabinetowe Premium",
+    name: "Fotel obrotowy Intrata",
     category: "Biuro",
-    price: "1 890 zł",
-    originalPrice: "2 200 zł",
-    image: "/executive-office-desk-with-drawers--dark-wood-fini.jpg",
+    price: "990 zł",
+    originalPrice: "1 260 zł",
+    image: "/ergonomic-office-chair-black-mesh.jpg",
     isPromo: true,
   },
   {
     id: 4,
-    name: "Szafa metalowa aktowa",
-    category: "Biuro",
-    price: "780 zł",
-    image: "/metal-filing-cabinet--office-storage-furniture--gr.jpg",
+    name: "Stół szkolny Krzyś Duo 2-os.",
+    category: "Szkoła",
+    price: "308 zł",
+    image: "/adjustable-school-desk-with-wooden-top-and-metal-f.jpg",
     isPromo: false,
   },
   {
     id: 5,
+    name: "Regał szkolny Kubuś AN01",
+    category: "Szkoła",
+    price: "830 zł",
+    image: "/kindergarten-toy-storage-shelf-colorful.jpg",
+    isPromo: false,
+  },
+  {
+    id: 6,
+    name: "Monitor interaktywny Optoma 65\"",
+    category: "Multimedia",
+    price: "4 970 zł",
+    image: "/interactive-whiteboard-touchscreen-display--modern.jpg",
+    isPromo: false,
+  },
+  {
+    id: 7,
+    name: "Tablica ceramiczna biała",
+    category: "Tablice",
+    price: "500 zł",
+    originalPrice: "700 zł",
+    image: "/interactive-whiteboard-in-classroom--modern-presen.jpg",
+    isPromo: true,
+  },
+  {
+    id: 8,
     name: "Stolik przedszkolny okrągły",
     category: "Przedszkole",
     price: "320 zł",
     image: "/round-kindergarten-table--colorful-children-furnit.jpg",
     isPromo: false,
-  },
-  {
-    id: 6,
-    name: 'Tablica interaktywna 65"',
-    category: "Multimedia",
-    price: "4 500 zł",
-    originalPrice: "5 200 zł",
-    image: "/interactive-whiteboard-touchscreen-display--modern.jpg",
-    isPromo: true,
   },
 ]
 
@@ -76,7 +92,7 @@ export function FeaturedProducts() {
           </Link>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
           {products.map((product) => (
             <div
               key={product.id}

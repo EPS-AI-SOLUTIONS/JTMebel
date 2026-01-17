@@ -11,8 +11,8 @@ export function Footer() {
           <div className="space-y-4">
             <Logo variant="light" />
             <p className="text-primary-foreground/80 text-sm leading-relaxed mt-4">
-              Producent mebli dla edukacji i biura z ponad 20-letnim doświadczeniem. Dostarczamy wysokiej jakości
-              rozwiązania dla przedszkoli, szkół i biur w całej Polsce.
+              JT Mebel Sp. z o.o. - producent certyfikowanych mebli szkolnych i przedszkolnych z Kartuz.
+              Wyposażyliśmy tysiące sal lekcyjnych w kraju i za granicą.
             </p>
             <div className="flex items-center gap-4 pt-2">
               <a href="#" className="hover:text-white/60 transition-colors" aria-label="Facebook">
@@ -61,6 +61,14 @@ export function Footer() {
                 </Link>
               </li>
               <li>
+                <Link
+                  href="/kategoria/place-zabaw"
+                  className="text-primary-foreground/80 hover:text-white transition-colors"
+                >
+                  Place zabaw
+                </Link>
+              </li>
+              <li>
                 <Link href="/promocje" className="text-white/90 font-medium hover:text-white transition-colors">
                   Promocje
                 </Link>
@@ -70,7 +78,7 @@ export function Footer() {
 
           {/* Company */}
           <div className="space-y-4">
-            <h3 className="text-lg font-semibold">Firma</h3>
+            <h3 className="text-lg font-semibold">Informacje</h3>
             <ul className="space-y-2 text-sm">
               <li>
                 <Link href="/o-nas" className="text-primary-foreground/80 hover:text-white transition-colors">
@@ -78,13 +86,13 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/katalog" className="text-primary-foreground/80 hover:text-white transition-colors">
-                  Katalog PDF
+                <Link href="/dostawa" className="text-primary-foreground/80 hover:text-white transition-colors">
+                  Dostawa
                 </Link>
               </li>
               <li>
-                <Link href="/realizacje" className="text-primary-foreground/80 hover:text-white transition-colors">
-                  Realizacje
+                <Link href="/katalog" className="text-primary-foreground/80 hover:text-white transition-colors">
+                  Katalog i cennik PDF
                 </Link>
               </li>
               <li>
@@ -102,18 +110,18 @@ export function Footer() {
               <li className="flex items-start gap-3">
                 <MapPin className="h-5 w-5 shrink-0 mt-0.5" />
                 <span className="text-primary-foreground/80">
-                  ul. Przemysłowa 10
+                  ul. Gdańska 45
                   <br />
-                  00-000 Warszawa
+                  83-300 Kartuzy
                 </span>
               </li>
               <li>
                 <a
-                  href="tel:+48123456789"
+                  href="tel:+48586847525"
                   className="flex items-center gap-3 text-primary-foreground/80 hover:text-white transition-colors"
                 >
                   <Phone className="h-5 w-5" />
-                  +48 123 456 789
+                  +48 58 684 75 25
                 </a>
               </li>
               <li>
@@ -123,6 +131,15 @@ export function Footer() {
                 >
                   <Mail className="h-5 w-5" />
                   biuro@jtmebel.pl
+                </a>
+              </li>
+              <li>
+                <a
+                  href="mailto:sklep@jtmebel.pl"
+                  className="flex items-center gap-3 text-primary-foreground/80 hover:text-white transition-colors"
+                >
+                  <Mail className="h-5 w-5" />
+                  sklep@jtmebel.pl
                 </a>
               </li>
             </ul>

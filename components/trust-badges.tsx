@@ -8,18 +8,18 @@ const badges = [
   },
   {
     icon: Clock,
-    title: "Serwis 24H",
-    description: "Szybka obsługa zgłoszeń",
+    title: "Realizacja do 28 dni",
+    description: "Krótkie terminy produkcji",
   },
   {
     icon: Shield,
-    title: "Bezpieczna przesyłka",
-    description: "Gwarancja nienaruszalności",
+    title: "Certyfikowane produkty",
+    description: "Zgodność z normami",
   },
   {
     icon: Award,
-    title: "20 lat doświadczenia",
-    description: "Zaufany producent",
+    title: "Tysiące realizacji",
+    description: "W kraju i za granicą",
   },
 ]
 

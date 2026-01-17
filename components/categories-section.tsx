@@ -4,31 +4,45 @@ import { ArrowRight } from "lucide-react"
 const categories = [
   {
     name: "Przedszkole i Żłobek",
-    description: "Kolorowe i bezpieczne meble dla najmłodszych",
+    description: "Krzesła, stoły, kolekcje Mini, Bunio, Domki, Sawanna oraz szafki i wyposażenie do higieny",
     image: "/colorful-kindergarten-furniture--small-chairs-and-.jpg",
     href: "/kategoria/przedszkole",
-    count: "150+ produktów",
-  },
-  {
-    name: "Szkoła",
-    description: "Ergonomiczne rozwiązania dla uczniów i nauczycieli",
-    image: "/modern-school-classroom-furniture--student-desks-a.jpg",
-    href: "/kategoria/szkola",
     count: "200+ produktów",
   },
   {
+    name: "Szkoła",
+    description: "Krzesła i stoły szkolne, kolekcje Kubuś, JT, Domino oraz tablice i regały",
+    image: "/modern-school-classroom-furniture--student-desks-a.jpg",
+    href: "/kategoria/szkola",
+    count: "300+ produktów",
+  },
+  {
     name: "Biuro",
-    description: "Profesjonalne meble do przestrzeni biurowych",
+    description: "Fotele obrotowe, krzesła konferencyjne, biurka gabinetowe i lady recepcyjne",
     image: "/professional-office-furniture--modern-executive-de.jpg",
     href: "/kategoria/biuro",
-    count: "180+ produktów",
+    count: "100+ produktów",
   },
   {
     name: "Multimedia",
-    description: "Sprzęt i wyposażenie audiowizualne",
+    description: "Monitory interaktywne, projektory, ekrany, wizualizery i programy Laptop dla Nauczyciela",
     image: "/interactive-whiteboard-in-classroom--modern-presen.jpg",
     href: "/kategoria/multimedia",
     count: "50+ produktów",
+  },
+  {
+    name: "Place zabaw",
+    description: "Huśtawki, karuzele, piaskownice i zestawy zabawowe dla dzieci",
+    image: "/colorful-children-chair-for-kindergarten--stackabl.jpg",
+    href: "/kategoria/place-zabaw",
+    count: "80+ produktów",
+  },
+  {
+    name: "Tablice",
+    description: "Tablice ceramiczne, lakierowane, korkowe, szklane i gabloty informacyjne",
+    image: "/interactive-whiteboard-touchscreen-display--modern.jpg",
+    href: "/kategoria/tablice",
+    count: "40+ produktów",
   },
 ]
 
@@ -45,7 +59,7 @@ export function CategoriesSection() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
           {categories.map((category) => (
             <Link
               key={category.name}
